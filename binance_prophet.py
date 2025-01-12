@@ -21,6 +21,7 @@ def get_binance_data(symbol, interval, lookback):
     data["time"] = pd.to_datetime(data["time"], unit="ms")
     data.set_index("time", inplace=True)
     data = data.astype(float)
+    print(data)
     return data
 
 def calculate_indicators(data):
@@ -41,7 +42,7 @@ def predict_future_prices(data):
     prophet_data = data.reset_index()[["time", "close"]].rename(columns={"time": "ds", "close": "y"})
     model = Prophet()
     model.fit(prophet_data)
-    future = model.make_future_dataframe(periods=10, freq='min')
+    future = model.make_future_dataframe(periods=60, freq='min')
     forecast = model.predict(future)
     return forecast
 
