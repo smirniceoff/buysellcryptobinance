@@ -1,4 +1,4 @@
-Algoritimo python que calcula indicadores como RSI, MACD, médias móveis e bandas de bollinger, com dados em extraídos tempo real da corretora binance. Analisa os dados para tomar decisão de compra e venda baseado na analise técnica dos indicadores além de calcular a previsão futura de preço baseado na Prophet, ferramenta de código aberto desenvolvido pelo Meta para analise de dados e previsão de séries temporais
+Python algorithm that calculates indicators such as RSI, MACD, moving averages and Bollinger Bands, with data extracted in real time from the Binance broker. It analyzes the data to make buying and selling decisions based on the technical analysis of the indicators, in addition to calculating the future price forecast based on Prophet, an open source tool developed by Meta for data analysis and time series forecasting.
 
 1. Choose the currency pair you want to trade
    symbol = "BTCUSDT"
