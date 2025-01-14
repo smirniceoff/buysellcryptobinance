@@ -1,6 +1,6 @@
 Python algorithm that calculates indicators such as RSI, MACD, moving averages and Bollinger Bands, with data extracted in real time from the Binance broker. It analyzes the data to make buying and selling decisions based on the technical analysis of the indicators, in addition to calculating the future price forecast based on Prophet, an open source tool developed by Meta for data analysis and time series forecasting.
 
-1. Resolve dependencies by installing the libraries specified below:\n
+1. Resolve dependencies by installing the libraries specified below:<br />
    pip install client
    pip install ta
    pip install pyhton-binance
