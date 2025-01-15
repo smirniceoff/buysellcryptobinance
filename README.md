@@ -11,10 +11,12 @@ Python algorithm that calculates indicators such as RSI, MACD, moving averages a
 3. Choose the currency pair you want to trade
    symbol = "BTCUSDT"
 
-4. Set up your Binance API key credentials
+   <code>symbol = 'BTCUSDT'</code>
+
+5. Set up your Binance API key credentials
    api_key = "SUA_API_KEY"
    api_secret = "SEU_API_SECRET"
    
-5. Get returns automatically directly to your crypto wallet $$$$
+6. Get returns automatically directly to your crypto wallet $$$$
 
-6. To run type in the command line:<br />  python3 binance_prophet.py
+7. To run type in the command line:<br />  python3 binance_prophet.py
