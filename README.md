@@ -18,7 +18,7 @@ Python algorithm that calculates indicators such as RSI, MACD, moving averages a
    api_secret = "SEU_API_SECRET"
 
    <code>
-   api_key = 'SUA_CHAVE_API'<br /
+   api_key = 'SUA_CHAVE_API'<br />
    api_secret = 'SUA_CHAVE_SECRETA'
    </code>
    
