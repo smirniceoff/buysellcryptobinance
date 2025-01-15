@@ -24,4 +24,5 @@ Python algorithm that calculates indicators such as RSI, MACD, moving averages a
 7. Get returns automatically directly to your Binance crypto wallet $$$$
 
 8. To run type in the command line:<br />
+
 <code>python3 binance_prophet.py</code>
