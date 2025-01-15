@@ -2,7 +2,7 @@ Python algorithm that calculates indicators such as RSI, MACD, moving averages a
 
 1. Resolve dependencies by installing the libraries specified below:<br />
 
-   <code
+   <code>
    pip install client<br />
    pip install ta<br />
    pip install pyhton-binance<br />
