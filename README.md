@@ -14,16 +14,25 @@ Python algorithm that calculates indicators such as RSI, MACD, moving averages a
 
    <code>symbol = 'BTCUSDT'</code>
 
-5. Set up your Binance API key credentials
+3. Set up your Binance API key credentials
    api_key = "SUA_API_KEY"
    api_secret = "SEU_API_SECRET"
 
    <code>api_key = 'SUA_CHAVE_API'<br />
    api_secret = 'SUA_CHAVE_SECRETA'
    </code>
-   
-7. Get returns automatically directly to your Binance crypto wallet $$$$
 
-8. To run type in the command line:<br />
+4. Configure your SMTP Server credencials
+
+   <code># mail configs<br />
+    smtp_server = "smtp.provider.com"  # Alterar conforme o servidor de email<br />
+    smtp_port = 587<br />
+    sender_email = "mail_sender@provider.com"<br />
+    sender_password = "YOUR_PASSWORD"<br />
+    recipient_email = "mail_recipient@provider.com"</code><br />
+   
+5. Get returns automatically directly to your Binance crypto wallet $$$$
+
+6. To run type in the command line:<br />
 
    <code>bash$ python3 binance_prophet.py</code>
